@@ -1,0 +1,272 @@
+/* ALL PAGES________________________________________________________________________________________ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Aleo', serif;
+    background: linear-gradient(to top, grey, white 1%);
+    }
+
+
+
+.ryan-catrine {
+    font-family: 'Permanent Marker';
+    font-weight: bold;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 50px;
+    /* color:#ec1e2a; */
+    
+    }
+
+.ryan-catrine:hover {
+    color:#ec1e2a;
+}
+
+
+
+.menu {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    border: 3px;
+    border-style: solid;
+    border-right:none;
+    border-left:none;
+    border-top: none;
+    width: 100%;
+    }
+
+
+
+.menu:hover {
+    color:#ec1e2a
+   
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 1rem 1rem 1rem 2rem;
+    height: auto;
+    margin: 2px auto 2px auto;
+    text-decoration: none;
+    color:black
+    }
+
+
+
+.buttons:visited {
+    text-decoration: none;
+    color:black;
+    }
+
+
+
+.buttons:hover {
+    color: #ec1e2a;
+    } 
+
+
+
+.contact {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    word-spacing: 5em;
+    border: 3px;
+    border-style: solid;
+    border-right:none;
+    border-left:none;
+    border-bottom: none;
+    width: 100%;
+    color:black;
+    text-decoration: none;
+    }
+
+
+
+.contact:visited {
+    text-decoration: none;
+    color:black
+    }
+
+
+/* ABOUT________________________________________________________________________________________ */
+
+
+.picandtext {
+    display: inline-flex; 
+    flex-wrap: wrap;
+    margin: 1 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    }
+
+
+.mountain {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.7rem;   
+    }
+
+
+.hey {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: normal;
+    height: auto;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+    padding-left: 3rem;
+    float: left;
+    width: 80%;
+    }
+
+
+.heyryan {
+    font-size: 45px;
+    align-content: left;
+    /* font-weight: bold; */
+    /* color:#457497; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: "helvetica"; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    text-align:left;
+    float: left;
+    }
+
+
+.paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-indent: 3rem;
+    font-weight: normal;
+    /* display: inline-flex;
+    flex-wrap: wrap; */
+    /* height: auto;
+    margin: 2px auto 2px auto; */
+    padding-top: 0rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    float: left;
+}
+
+
+/* PROJECTS________________________________________________________________________________________ */
+
+.project-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.1rem;
+}
+
+
+.project-description {
+    display: flex;
+    flex-wrap: wrap;
+    color:black;
+    padding: 1em 1.7em;
+    height: 30%;
+    text-decoration: none;
+}
+
+.project-description:hover {
+    background-color:#ec1e2a;
+    color: white;
+    padding: 1em 1.7em;
+    height: 30%;
+    text-decoration: none;
+    }
+
+
+.project-description:visited{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:black
+    }
+    
+
+/* RESUME________________________________________________________________________________________ */
+
+
+h1 {
+    text-indent: 2rem;
+}
+
+
+
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    text-indent: 2rem;
+    /* color:#ec1e2a; */
+    border: 2px;
+    border-style: dotted;
+    border-right:none;
+    border-left:none;
+    border-top: none;
+    width: 60%;
+}
+
+
+
+.job {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-indent: 2rem;
+    font-weight: normal;
+    padding-top: 0rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    float: left;  
+}
+
+
+
+.description {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-indent: 2rem;  
+}
+
+
+
+
+
+
+
+
