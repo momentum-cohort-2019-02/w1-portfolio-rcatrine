@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Aleo', serif;
+    /* background-image: url("https://images.unsplash.com/photo-1548504749-5e7a0bdeb564?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"); */
     background: linear-gradient(to top, grey, white 1%);
     }
 
@@ -25,12 +26,13 @@ body {
     padding-bottom: 1rem;
     padding-left: 2rem;
     font-size: 50px;
-    /* color:#ec1e2a; */
+    color:#ec1e2a;
     
     }
 
 .ryan-catrine:hover {
     color:#ec1e2a;
+    transform: scale(1.05);
 }
 
 
@@ -51,7 +53,7 @@ body {
 
 
 .menu:hover {
-    color:#ec1e2a
+    color:#ec1e2a;
    
 }
 
